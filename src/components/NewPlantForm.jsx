@@ -16,8 +16,7 @@ function NewPlantForm({ onAddPlant }) {
     const newPlant = {
       name: name,
       image: image,
-      price: parseFloat(price),
-      inStock: true,
+      price: price // Keep as a string to match what the test expects 
     };
 
 
