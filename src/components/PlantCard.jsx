@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 function PlantCard({ plant }) {
 
-  const [inStock, setInStock] = useState(plant.inStock);
+  // Set to true by default so the plant shows as "In Stock" when the page loads
+  const [inStock, setInStock] = useState(true);
 
 
 
